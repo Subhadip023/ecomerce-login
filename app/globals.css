@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+    background: hsl(0, 2%, 28%);
+} */
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+h3{
+  font-size: 25px;
+  font-weight: 400;
+
+}
+
+h4{
+  font-size: 15px;
+}
+.box h2{
+  margin-bottom: -30px;
+}
+.box h3{
+  width: 100%;
+  /* margin: auto; */
+  text-align: center;
+  margin-bottom: -40px;
+}
+
+
+.container {
+  margin: 0 auto;
+  height: 82vh;
+  width: 90vw;
+  /* background: #000; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  /* background: rgb(131, 131, 131); */
+  box-shadow: 0 0  3px;
+  height: 600px;
+  width: 500px;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-elements{
+    /* background: #000000; */
+    height: 70px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.form-elements input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #C1C1C1;
+    /* border-color: ; */
+    padding: 10px;
+    font-size: 20px;
+}
+
+.form-elements label{
+    font-size: 20px;
+}
+
+button[type='submit']{
+    background: #000;
+    height: 40px;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+
+}
+.form-elements p{
+    text-align: center;
+}
+.form-elements p a {
+font-weight: 500;
+margin-left: 10px;
+}
+.form-elements p a:hover {
+font-weight: 600;
+}
+
+.password-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.password-container input {
+  flex: 1;
+ 
+}
+
+.password-container label{
+  width: 100%;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.verify-box{
+  height: 300px;
+}
